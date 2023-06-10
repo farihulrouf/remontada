@@ -4,7 +4,14 @@ const Categories = () => {
 
     return (
         <React.Fragment>
-            <div className="">
+            <div className="relative">
+            <Image
+                    className="absolute left-0"
+                        src="/assets/soccer.png"
+                        width={283}
+                        height={256}
+                        alt="Picture of the author"
+                    />
                 <h2 className="text-4xl text-center">فئات</h2>
                 <div className="flex flex-wrap justify-center w-1/2 mx-auto gap-3 py-2">
                     <Image
