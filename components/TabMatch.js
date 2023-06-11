@@ -13,28 +13,27 @@ const TabMatch = () => {
             
             {pagematch.map((match, index) =>
                 <>
-                    <div className="flex p-2">
+                    <div className="flex p-4">
                         <div className="w-1/2">
                             <div className="flex space-x-2 justify-between">
                                 <div className="flex space-x-2">
                                     <Image
-                                        src="/assets/flag/argentina.png"
+                                        src={match.img_1}
                                         width={36}
                                         height={36}
                                         alt="Argentina"
                                     />
-                                    <p> Argentina</p>
+                                    <p className="w-36 text-left">{match.name1}</p>
                                 </div>
                                 <div>
                                     <div className="bg-indigo-100 px-2 rounded-xl">
-                                        <p className="text-blue-500">1-2</p>
+                                        <p className="text-blue-500">{match.score}</p>
                                     </div>
                                 </div>
                                 <div className="flex space-x-2">
-
-                                    <p> Brazil</p>
+                                    <p className="w-36 text-right"> {match.name2}</p>
                                     <Image
-                                        src="/assets/flag/brazil.png"
+                                        src={match.img_2}
                                         width={36}
                                         height={36}
                                         alt="brazil"
@@ -44,7 +43,7 @@ const TabMatch = () => {
                         </div>
                         <div className="w-1/2">
                             <div className="w-full flex justify-between">
-                                <div className="px-2 bg-pink-100 w-28 rounded-xl">
+                                <div className="px-2 bg-pink-100 w-28 rounded-xl ml-4">
                                     <p className="text-red-500 text-center">Full - Time</p>
                                 </div>
                                 <div className="flex space-x-4 text-sm">
