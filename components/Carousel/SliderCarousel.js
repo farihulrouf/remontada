@@ -8,7 +8,7 @@ export default class SliderCarousel extends Component {
   render() {
     return (
       <div>
-        <Carousel showThumbs={false} >
+        <Carousel showThumbs={false} autoPlay={true} >
           <div className='relative'>
             <img src="assets/splash/splash.png" alt="image1" />
             <p className='absolute px-2 py-2 bottom-40 right-20 bg-indigo-500 bg-opacity-100 rounded-xl text-4xl text-white'>يخمن  مباراة</p>

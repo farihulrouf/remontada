@@ -10,7 +10,6 @@ import SliderCarousel from '@/components/Carousel/SliderCarousel'
 export default function Home() {
   return (
     <>
-    <NavBar />
     <SliderCarousel />
       <div className='max-w-screen-xl mx-auto'>
         <MatchHome />
@@ -18,7 +17,6 @@ export default function Home() {
          <Categories />
          <TabMatch />
       </div>
-    <Footer />
     </>
   )
 }
