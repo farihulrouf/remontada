@@ -31,7 +31,7 @@ const NavBar = () => {
                             <Link href="/about">About</Link>
                         </a>
                         <a  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                             <Link href="/contact">Contact</Link>
+                             <Link href="/about">Contact</Link>
                         </a>
                         <a  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
                            <Link href="/term"> Term and condition</Link>

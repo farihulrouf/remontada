@@ -4,6 +4,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import "./index.css";
 import Image from 'next/image';
+import { Li } from 'react-flags-select';
+import Link from 'next/link';
 export default class SliderCarousel extends Component {
   render() {
     return (
@@ -12,7 +14,11 @@ export default class SliderCarousel extends Component {
           <div className='relative'>
             <img src="assets/splash/splash.png" alt="image1" />
             <p className='absolute px-2 py-2 bottom-40 right-20 bg-indigo-500 bg-opacity-100 rounded-xl text-4xl text-white'>يخمن  مباراة</p>
-            <p className='absolute px-2 py-2 bottom-20 right-20 bg-yellow-500 bg-opacity-100 rounded-xl text-4xl text-white'>خمن الآن</p>
+            
+              <Link href="/login">
+                <p className='absolute px-2 py-2 bottom-20 right-20 bg-yellow-500 bg-opacity-100 rounded-xl text-4xl text-white'>خمن الآن</p>
+              </Link>
+            
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
               <img src="assets/splash/kick.png" alt="image1" />
             </div>
@@ -21,13 +27,13 @@ export default class SliderCarousel extends Component {
           <div>
 
             <img src="assets/splash/splash.png" alt="image1" />
-           
+
 
           </div>
           <div>
 
             <img src="assets/splash/splash.png" alt="image1" />
-           
+
 
           </div>
 
