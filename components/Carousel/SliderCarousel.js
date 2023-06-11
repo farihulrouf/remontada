@@ -26,13 +26,13 @@ export default class SliderCarousel extends Component {
           </div>
           <div>
 
-            <img src="assets/splash/splash.png" alt="image1" />
+            <img src="assets/splash/splash_2.png" alt="splash2" />
 
 
           </div>
           <div>
 
-            <img src="assets/splash/splash.png" alt="image1" />
+            <img src="assets/splash/splash_3.png" alt="ucl" />
 
 
           </div>
