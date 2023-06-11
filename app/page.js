@@ -5,10 +5,13 @@ import Footer from '@/components/Footer'
 import Categories from '@/components/Categories'
 import Rules from '@/components/Rules'
 import TabMatch from '@/components/TabMatch'
+import SliderCarousel from '@/components/Carousel/SliderCarousel'
 export default function Home() {
   return (
     <>
     <NavBar />
+    <SliderCarousel />
+
       <div className='max-w-screen-xl mx-auto'>
         <Rules />
          <Categories />

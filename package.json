@@ -9,14 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ntegral/react-owl-carousel": "^1.0.1",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
     "flag-icons": "^6.7.0",
+    "jquery": "^3.7.0",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-flags-select": "^2.2.3",
-    "react-icons": "^4.9.0"
+    "react-icons": "^4.9.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-tabs": "^6.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
