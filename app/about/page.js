@@ -10,6 +10,7 @@ const About = () => {
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto' }} // optional
+                    alt="pic"
                 />
             </div>
             <div className="max-w-screen-xl mx-auto px-24 py-8">
