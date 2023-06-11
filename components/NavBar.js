@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import React, { useState } from 'react';
 import ReactFlagsSelect from "react-flags-select";
+import Link from 'next/link';
 const NavBar = () => {
 
     const [select, setSelect] = useState("AE");
@@ -24,16 +25,16 @@ const NavBar = () => {
                 <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div className="text-sm lg:flex-grow space-x-4">
                         <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                            Home
+                            <Link href="/">Home</Link>
                         </a>
                         <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                            About
+                            <Link href="/about">About</Link>
                         </a>
                         <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                            Contact
+                             <Link href="/contact">Contact</Link>
                         </a>
                         <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                            Term and condition
+                           <Link href="/term"> Term and condition</Link>
                         </a>
                     </div>
                     <div className="">

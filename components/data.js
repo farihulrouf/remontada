@@ -58,8 +58,56 @@ const pagematch = [
 
 ]
 
+const termcondition = [
+    {
+        id: 1,
+        text: "Subscriber will be able to guess all the available matches per day unless the match did not start yet."
+    },
+    {
+        id: 2,
+        text: "Subscriber must fill in hisiher phone number as the last step of guessing before submitting the guess form"
+    },
+    {
+        id: 3,
+        text: "Subscriber wil get 3 points to his/her for each correct guess. Zero points will be given for an un-correct guess. Points will be calculated accumulatively to subscriber phone number"
+    },
+    {
+        id: 4,
+        text: "Match correct guess means that subscriber guessed the exact match score for the two teams otherwise, no points will be added"
+    },
+    {
+        id: 5,
+        text: "In case the matches extend for extra time. The final match result will be considered. Extra time penalties will not be included "
+    },
+    {
+        id: 6,
+        text: "Sub will not be able to guess a started match. Accordingly, other matches wil replace the started matches."
+    },
+    {
+        id: 7,
+        text: "The service price will be 3 NIS VAT ex."
+    },
+    {
+        id: 8,
+        text: "Subscribers will be able to subscribe as much as he/she wants. No limited number of attempts."
+    },
+    {
+        id: 9,
+        text: "Each attempt will give the subscriber a chance to guess only one time."
+    },
+    {
+        id: 10,
+        text: "Subscriber can use the provided link or passcode to guess at any time. No expiry date for the provided link or passcode."
+    },
+    {
+        id: 11,
+        text: "Subscriber can enter the provided link passcode manually through the website."
+    }
+]
+
 
 
   export {
-    pagematch
+    pagematch,
+    termcondition
  }
