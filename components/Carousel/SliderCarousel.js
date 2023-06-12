@@ -47,6 +47,28 @@ export default class SliderCarousel extends Component {
 
 
           </div>
+          <div className='relative'>
+
+            <img src="assets/splash/splash_4.png" alt="ucl" />
+            <p className='absolute px-8 py-2 bottom-40 left-40 bg-indigo-500 bg-opacity-100 rounded-xl text-4xl text-white'>يخمن  مباراة</p>
+            
+              <Link href="/login">
+                <p className='absolute px-4 py-2 bottom-20 left-40 bg-yellow-500 bg-opacity-100 rounded-xl text-4xl text-white flex items-center'>خمن الآن <BsArrowRight size={36} /></p>
+              </Link>
+
+
+          </div>
+          <div className='relative'>
+
+            <img src="assets/splash/splash_5.png" alt="ucl" />
+            <p className='absolute px-8 py-2 bottom-40 left-40 bg-indigo-500 bg-opacity-100 rounded-xl text-4xl text-white'>يخمن  مباراة</p>
+            
+              <Link href="/login">
+                <p className='absolute px-4 py-2 bottom-20 left-40 bg-yellow-500 bg-opacity-100 rounded-xl text-4xl text-white flex items-center'>خمن الآن <BsArrowRight size={36} /></p>
+              </Link>
+
+
+          </div>
 
         </Carousel>
       </div>
