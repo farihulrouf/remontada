@@ -35,7 +35,7 @@ const MatchSoccer = () => {
                 </div>
                 {pagematch.map((match, index) =>
                     <>
-                        <div className="flex space-x-8 p-4 items-center">
+                        <div className="flex space-x-8 p-4 items-center hover:bg-gray-200">
                             <div className="w-2/5">
                                 <div className="flex space-x-2 justify-between">
                                     <div className="flex space-x-2 justify-start w-36">
