@@ -20,6 +20,15 @@ const MatchSoccer = () => {
                 />
             </div>
             <div className="max-w-screen-xl mx-auto px-24 py-8">
+                <div className="py-6">
+                    <h3 className="text-xl text-center">مباريات اليوم</h3>
+                    <div className="flex gap-4 items-center">
+                          <input type="text" placeholder=" ترثع الأن" className="border p-2 w-24 rounded-sm" />
+                          <input type="text" placeholder="059 x x x x x"  className="border p-2 rounded-sm" />
+                          <p className="text-lg">رقم هوالة</p>
+
+                    </div>
+                </div>
                 <div className="bg-yellow-500 p-2 mb-8 flex items-center">
                     <BiFootball size={36} />
                     <h2 className="text-lg">Footbal match</h2>

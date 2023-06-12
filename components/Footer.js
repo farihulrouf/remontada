@@ -4,7 +4,7 @@ import { AiOutlineHome, AiOutlineMail,
     AiOutlinePhone, AiOutlineFacebook, 
     AiOutlineInstagram, AiOutlineTwitter} 
 from 'react-icons/ai';
-
+import Link from "next/link";
 const Footer = () => {
     return (
         <React.Fragment>
@@ -27,10 +27,10 @@ const Footer = () => {
                             <div className="w-1/3 text-white">
                                 <h1 className="text-2xl">Link</h1>
                                 <ul className="list-none mt-6">
+                                    <a><li className="mb-2 hover:text-yellow-500"><Link href="/about">About us</Link></li></a>
+                                    <a><li className="mb-2 hover:text-yellow-500"><Link href="/about">Contact</Link></li></a>
+                                    <a><li className="mb-2 hover:text-yellow-500"><Link href="/term">Term & Condition</Link></li></a>
 
-                                    <li>About us</li>
-                                    <li>Contact</li>
-                                    <li>Term & Condition</li>
                                 </ul>
                             </div>
                             <div className="w-1/3 opacity-100 bg-[url('../public/img/bg_ball.png')]">

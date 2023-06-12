@@ -10,7 +10,7 @@ const NavBar = () => {
     const onSelect = (code) => setSelect(code);
     return (
         <React.Fragment>
-            <nav className="flex items-center justify-between flex-wrap bg-black">
+            <nav className="flex items-center justify-between flex-wrap bg-black px-8">
                 <div className="flex items-center flex-shrink-0 text-white mr-6">
                     <Image
                         src="/logo.png"
@@ -37,7 +37,7 @@ const NavBar = () => {
                            <Link href="/term"> Term and condition</Link>
                         </a>
                     </div>
-                    <div className="">
+                    <div className="flex items-center space-x-3">
                         <ReactFlagsSelect
                             selected={select}
                             onSelect={onSelect}
@@ -56,7 +56,9 @@ const NavBar = () => {
                         disabled={disabled} */
                         />
                     </div>
-                </div>
+                    <a  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                           <Link href="/login">Login</Link>
+                        </a>                </div>
             </nav>
         </React.Fragment>
     )

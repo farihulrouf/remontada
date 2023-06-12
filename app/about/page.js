@@ -27,7 +27,7 @@ const About = () => {
                         <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et hendrerit urna. Aliquam dignissim volutpat fermentum. In metus est, vulputate id massa ac Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et hendrerit urna. Aliquam dignissim volutpat fermentum. In metus est. </p>
                         <input type="text" placeholder="Full Name" className="px-2 py-2 mb-6 border w-2/3 rounded-md" />
                         <input type="text" placeholder="Email" className="px-2 py-2 mb-6 border w-2/3 rounded-md" />
-                        <textarea class="resize rounded-md border w-2/3 px-2 py-2 h-48 mb-2" placeholder="Description" />
+                        <textarea className="resize rounded-md border w-2/3 px-2 py-2 h-48 mb-2" placeholder="Description" />
                         <div className="mt-2 w-2/3 ">
                             <button className="bg-yellow-500 px-4 py-2 rounded-lg">Send Now</button>
                         </div>

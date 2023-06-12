@@ -2,8 +2,8 @@
 const pagematch = [
     {
         id: 1,
-        name1: "Argentina",
-        name2: "Brazil",
+        name1: "الأرجنتين",
+        name2: "البرازيل",
         dateTime: "18 December 2023",
         stadium: "Alianz Arena",
         cup: "World Cup U-20",
@@ -13,8 +13,8 @@ const pagematch = [
     },
     {
         id: 2,
-        name1: "Germany",
-        name2: "Portugal",
+        name1: "ألمانيا",
+        name2: "البرتغال",
         dateTime: "18 December 2023",
         stadium: "Alianz Arena",
         cup: "World Cup U-20",
@@ -24,8 +24,8 @@ const pagematch = [
     },
     {
         id: 3,
-        name1: "Italy",
-        name2: "Spain",
+        name1: "إيطاليا",
+        name2: "إسبانيا",
         dateTime: "18 December 2023",
         stadium: "Alianz Arena",
         cup: "World Cup U-20",
@@ -35,8 +35,8 @@ const pagematch = [
     },
     {
         id: 4,
-        name1: "Netherlands",
-        name2: "Uruguay",
+        name1: "هولندا",
+        name2: "أوروغواي",
         dateTime: "18 December 2023",
         stadium: "Alianz Arena",
         cup: "World Cup U-20",
@@ -46,8 +46,8 @@ const pagematch = [
     },
     {
         id: 5,
-        name1: "France",
-        name2: "England",
+        name1: "فرنسا",
+        name2: "إنكلترا",
         dateTime: "18 December 2023",
         stadium: "Alianz Arena",
         cup: "World Cup U-20",
