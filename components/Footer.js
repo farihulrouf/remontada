@@ -10,21 +10,21 @@ const Footer = () => {
         <React.Fragment>
             <div className="w-full bg-[url('../public/img/prism.png')]">
                 <div className="max-w-screen-xl mx-auto">   
-                        <div className="w-full flex p-4">
-                            <div className="w-1/3 text-white">
+                        <div className="w-full flex flex-wrap p-4">
+                            <div className="w-1/2 text-white sm:w-1/3">
                                 <h1 className="text-2xl">About Us</h1>
-                                <p className="py-6 text-sm max-w-sm">
+                                <p className="py-6 text-sm sm:max-w-sm w-40">
                                     Adipisicing elit, sed do eiusmod
                                     tempor incidunta utiai labore et
-                                    dolore magna si aliqua quis.
+                                    dolore magna si aliqua.
                                 </p>
-                                <input type="text" placeholder="Email" className="py-2 p-2" />
-                                <div className="mt-2 mb-2">
+                                <input type="text" placeholder="Email" className="py-2 p-2 sm:mt-1 mt-4" />
+                                <div className="mt-4 sm:mt-2 mb-2">
                                     <button className="border-2 border-yellow-600 text-wihite py-2 px-8">GET IN TOUCH</button>
 
                                 </div>
                             </div>
-                            <div className="w-1/3 text-white">
+                            <div className="w-1/2 text-white sm:w-1/3">
                                 <h1 className="text-2xl">Link</h1>
                                 <ul className="list-none mt-6">
                                     <a><li className="mb-2 hover:text-yellow-500"><Link href="/about">About us</Link></li></a>
@@ -33,7 +33,7 @@ const Footer = () => {
 
                                 </ul>
                             </div>
-                            <div className="w-1/3 opacity-100 bg-[url('../public/img/bg_ball.png')]">
+                            <div className="w-full sm:w-1/3 opacity-100 bg-[url('../public/img/bg_ball.png')]">
                             
                                <div className="p-4 text-white">  
                                 <Image
