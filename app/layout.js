@@ -2,7 +2,6 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
-//import AuthProvider from "@/components/AuthProvider/AuthProvider";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {

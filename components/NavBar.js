@@ -24,17 +24,18 @@ const NavBar = () => {
                 </div>
                 <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div className="text-sm lg:flex-grow space-x-4">
+                        
                         <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                             <Link href="/">Home</Link>
                         </a>
-                        <a  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                             <Link href="/about">About</Link>
                         </a>
-                        <a  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                             <Link href="/about">Contact</Link>
+                        <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                            <Link href="/about">Contact</Link>
                         </a>
-                        <a  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                           <Link href="/term"> Term and condition</Link>
+                        <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                            <Link href="/term"> Term and condition</Link>
                         </a>
                     </div>
                     <div className="flex items-center space-x-3">
@@ -56,9 +57,9 @@ const NavBar = () => {
                         disabled={disabled} */
                         />
                     </div>
-                    <a  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                           <Link href="/login">Login</Link>
-                        </a>                </div>
+                    <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                        <Link href="/login">Login</Link>
+                    </a>                </div>
             </nav>
         </React.Fragment>
     )
