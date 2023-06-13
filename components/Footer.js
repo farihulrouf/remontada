@@ -36,7 +36,9 @@ const Footer = () => {
                             <div className="w-full sm:w-1/3 opacity-100 bg-[url('../public/img/bg_ball.png')]">
                             
                                <div className="p-4 text-white">  
-                               <img src='/logo.svg' className='w-16 h-auto' alt="logo" /> 
+                               <div className="flex items-center bg-blue-900 px-4">
+                               <img src='/logo.svg' className='w-16 h-auto' alt="logo" /> <span className="text-white text-4xl">emontadaa</span>
+                               </div>
 
                                     <p className="text-white text-sm mt-6 mb-4 max-w-sm">
                                         Consectetur adipisicing elit sedtado eiusmod dunt
