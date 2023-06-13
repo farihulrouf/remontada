@@ -18,7 +18,7 @@ export default class SliderCarousel extends Component {
             <p className='absolute sm:px-8 px-2 sm:py-2 py-1 sm:bottom-40 bottom-20 sm:right-20 right-10 bg-indigo-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white'>يخمن  مباراة</p>
             
               <Link href="/login">
-                <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:right-20 right-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>خمن الآن <BsArrowRight className='sm:block hidden' size={36} /></p>
+                <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:right-20 right-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>Guess Now<BsArrowRight className='sm:block hidden' size={36} /></p>
               </Link>
             
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
@@ -33,7 +33,7 @@ export default class SliderCarousel extends Component {
             <p className='absolute sm:px-8 px-2 sm:py-2 py-1 sm:bottom-40 bottom-20 sm:left-20 left-10 bg-indigo-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white'>يخمن  مباراة</p>
             
               <Link href="/login">
-                <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:left-20 left-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>خمن الآن <BsArrowRight className='sm:block hidden' size={36} /></p>
+                <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:left-20 left-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>Guess Now<BsArrowRight className='sm:block hidden' size={36} /></p>
               </Link>
             
 
@@ -45,7 +45,7 @@ export default class SliderCarousel extends Component {
             <p className='absolute sm:px-8 px-2 sm:py-2 py-1 sm:bottom-40 bottom-20 sm:right-20 right-10 bg-indigo-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white'>يخمن  مباراة</p>
             
             <Link href="/login">
-              <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:right-20 right-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>خمن الآن <BsArrowRight className='sm:block hidden' size={36} /></p>
+              <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:right-20 right-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>Guess Now<BsArrowRight className='sm:block hidden' size={36} /></p>
             </Link>
 
 
@@ -56,7 +56,7 @@ export default class SliderCarousel extends Component {
             <p className='absolute sm:px-8 px-2 sm:py-2 py-1 sm:bottom-40 bottom-20 sm:left-20 left-10 bg-indigo-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white'>يخمن  مباراة</p>
             
               <Link href="/login">
-                <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:left-20 left-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>خمن الآن <BsArrowRight className='sm:block hidden' size={36} /></p>
+                <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:left-20 left-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>Guess Now<BsArrowRight className='sm:block hidden' size={36} /></p>
               </Link>
 
           </div>
@@ -66,7 +66,7 @@ export default class SliderCarousel extends Component {
             <p className='absolute sm:px-8 px-2 sm:py-2 py-1 sm:bottom-40 bottom-20 sm:left-20 left-10 bg-indigo-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white'>يخمن  مباراة</p>
             
             <Link href="/login">
-              <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:left-20 left-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>خمن الآن <BsArrowRight className='sm:block hidden' size={36} /></p>
+              <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:left-20 left-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>Guess Now<BsArrowRight className='sm:block hidden' size={36} /></p>
             </Link>
           
 
