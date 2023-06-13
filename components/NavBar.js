@@ -14,8 +14,8 @@ const NavBar = () => {
             <div className="max-w-7xl mx-auto flex items-center justify-between h-12 px-4 relative">
                 <div className="flex space-x-2 items-center font-bold tracking-wider text-white">
                     <Link href="/">
-                     <img src='/logo.svg' className='sm:w-12 w-8 h-auto z-40' alt="logo" /> 
-                     </Link>
+                        <img src='/logo.svg' className='sm:w-12 w-8 h-auto z-40' alt="logo" />
+                    </Link>
 
                 </div>
                 <div className="hidden md:block">

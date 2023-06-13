@@ -1,17 +1,28 @@
+"use client"
 import Image from "next/image"
 import { pagematch } from "./data";
 import { AiOutlineArrowRight }
     from 'react-icons/ai';
 import { BiFootball } from 'react-icons/bi'
+import { useRouter } from 'next/navigation';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 const TabMatch = () => {
+    const router = useRouter();
+
+    const matchREdirect = () => {
+        router.push('/login')
+
+    }
     return (
         <div className="w-full mt-12 mb-24 sm:px-24 px-4">
-            <div className="bg-yellow-500 p-2 mb-8 flex items-center">
-                <BiFootball size={32} />
-                <h2 className="text-lg">Footbal match</h2>
+            <div className="bg-yellow-500 p-2 mb-8 flex justify-between items-center">
+                <div className="flex items-center gap-2">
+                    <BiFootball size={32} color="white"/>
+                    <h2 className="text-lg text-white">Footbal match</h2>
+                </div>
+                <button className="bg-blue-900 text-white px-5 py-1 flex space-x-4 items-center rounded-lg" onClick={matchREdirect}><span>Guess  now</span>  <AiOutlineArrowRight color="white" className="text-gray-400" /></button>
             </div>
            
             {pagematch.map((match, index) =>
