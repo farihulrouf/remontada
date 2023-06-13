@@ -11,12 +11,19 @@ export default function Home() {
   return (
     <>
     <SliderCarousel />
+    
       <div className='max-w-screen-xl mx-auto'>
-        <MatchHome />
-        <Rules />
+      <MatchHome />
+      <Rules />
+      <Categories />
+      <TabMatch />
+
+
+       {/* 
          <Categories />
-         <TabMatch />
+  */}
       </div>
+  
     </>
   )
 }
