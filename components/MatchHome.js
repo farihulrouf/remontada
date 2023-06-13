@@ -1,7 +1,7 @@
 import Image from "next/image";
 const MatchHome = () => {
     return (
-        <div className="bg-gray-200 sm:px-24 px-8 flex justify-between p-2">
+        <div className="bg-gray-200 sm:px-24 px-4 flex justify-between p-2">
             <div className="flex space-x-4 items-center">
             <img src="/assets/club/city.png" alt="ucl" className="w-[25x] h-[25px] sm:w-[100px] sm:h-[100px]"/>
 
@@ -12,7 +12,7 @@ const MatchHome = () => {
                     alt="City"
                 />
     */}
-                <h2 className="sm:text-6xl text-xl">Man City</h2>
+                <h2 className="sm:text-6xl text-lg">Man City</h2>
 
             </div>
             <div className="flex rounded-lg items-center relative  px-2">
@@ -42,7 +42,7 @@ const MatchHome = () => {
                 </div>
             </div>
             <div className="flex space-x-4 items-center">
-                <h2 className="sm:text-6xl text-xl">Inter</h2>
+                <h2 className="sm:text-6xl text-lg">Inter</h2>
                 <img src="/assets/club/inter.png" alt="ucl" className="w-[25px] h-[25px] sm:w-[100px] sm:h-[100px]"/>
 
                 {/*<Image
