@@ -16,7 +16,7 @@ const TabMatch = () => {
            
             {pagematch.map((match, index) =>
                 <>
-                    <div className="flex flex-wrap items-center sm:p-4 p-0">
+                    <div className="flex flex-wrap items-center sm:p-4 p-0 mb-2 hover:bg-gray-200">
                         <div className="sm:w-1/2 w-full">
                             <div className="flex space-x-2 justify-between">
                                 <div className="flex space-x-2">
@@ -46,7 +46,7 @@ const TabMatch = () => {
                         </div>
                         
                         <div className="sm:w-1/2 w-full">
-                            <div className="w-full flex items-center justify-between mt-2 mb-2">
+                            <div className="w-full flex items-center justify-between mt-2 sm:mb-0 mb-2">
                                 <div className="px-2 bg-pink-100 rounded-xl sm:ml-4 ml-0">
                                     <p className="text-red-500 text-center sm:text-sm text-[10px]">Full - Time</p>
                                 </div>
