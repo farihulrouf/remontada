@@ -1,7 +1,7 @@
 import { termcondition } from "@/components/data"
 const Term = () => {
     return (
-        <div className="max-w-screen-xl mx-auto px-24 py-8">
+        <div className="max-w-screen-xl mx-auto sm:px-24 px-8 py-8">
             <p className="text-md font-bold">Term and condition</p>
             <p className="text-sm py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et hendrerit urna. Aliquam dignissim volutpat fermentum. In metus est, vulputate id massa ac Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et hendrerit urna. Aliquam dignissim volutpat fermentum. In metus est, vulputate id massa acLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et hendrerit urna. Aliquam dignissim volutpat fermentum. In metus est, vulputate id massa acLorem ipsum dolor sit amet,
                 consectetur adipiscing elit. </p>
