@@ -29,7 +29,7 @@ const Login = () => {
     }
     return (
         <React.Fragment>
-            <div className="mb-2">
+            <div className="sm:mb-2 mb-0">
                 <Image
                     src="/assets/splash/splash_login_soccer.png"
                     width={0}
@@ -39,24 +39,24 @@ const Login = () => {
                     alt="keypic"
                 />
             </div>
-            <div className="max-w-screen-xl mx-auto px-24 py-8">
+            <div className="max-w-screen-xl mx-auto sm:px-24  px-8 py-8">
                 <div className="w-full flex">
-                    <div className="w-1/2">
-                        <h3 className="text-2xl text-center mt-8">ابدأ في تخمين مباريات اليوم</h3>
+                    <div className="sm:w-1/2 w-full">
+                        <h3 className="text-2xl text-center sm:mt-8 mt-0">ابدأ في تخمين مباريات اليوم</h3>
                         <div className="w-full bg-gray-200 flex flex-col p-24 mt-6 h-72 relative">
-                            <input type="password" className="p-2 px-4 border w-full mb-2 rouonded-xl" placeholder="أدخل كلمة المرور هنا" onChange={matchSoccer} />
+                            <input type="password" className="p-2 px-4 border sm:w-full w-36 mb-2 rounded-xl" placeholder="أدخل كلمة المرور هنا" onChange={matchSoccer} />
                             <button className="bg-yellow-400 px-2 w-36 py-2 mt-2 mb-2 rounded-xl flex justify-center items-center space-x-3" onClick={matchREdirect}><label>ابدأ التخمين</label> <BsArrowRight size={24} /></button>
                             <div className="absolute right-10 bottom-5">
                                 <Image
                                     src="/assets/splash/key 1.png"
-                                    width={100}
-                                    height={100}
+                                    width={50}
+                                    height={50}
                                     alt="key"
                                 />
                             </div>
                         </div>
                     </div>
-                    <div className="w-1/2">
+                    <div className="w-1/2 sm:flex hidden">
                         <Image
                             src="/assets/splash/bg_login.png"
                             width={500}
