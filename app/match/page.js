@@ -19,26 +19,27 @@ const MatchSoccer = () => {
                     alt="pic"
                 />
             </div>
-            <div className="max-w-screen-xl mx-auto px-24 py-8">
+            <div className="max-w-screen-xl mx-auto sm:px-24 px-8 sm:py-8 py-4">
                 <div className="py-6">
-                    <h3 className="text-xl text-center">مباريات اليوم</h3>
+                    <h3 className="text-xl text-center py-1">مباريات اليوم</h3>
                     <div className="flex gap-4 items-center">
                           <input type="text" placeholder=" ترثع الأن" className="border p-2 w-24 rounded-sm" />
-                          <input type="text" placeholder="059 x x x x x"  className="border p-2 rounded-sm" />
-                          <p className="text-lg">رقم هوالة</p>
+                          <input type="text" placeholder="059 x x x x x"  className="border p-2 rounded-sm sm:w-48 w-36" />
+                          <p className="sm:text-lg text-sm">رقم هوالة</p>
 
                     </div>
                 </div>
-                <div className="bg-yellow-500 p-2 mb-8 flex items-center">
+                <div className="bg-yellow-500 p-2 sm:mb-8 mb-2 flex items-center">
                     <BiFootball size={36} />
-                    <h2 className="text-lg">Footbal match</h2>
+                    <h2 className="sm:text-lg text-sm">Footbal match</h2>
                 </div>
+                
                 {pagematch.map((match, index) =>
                     <>
-                        <div className="flex space-x-8 p-4 items-center hover:bg-gray-200">
-                            <div className="w-2/5">
+                        <div className="flex flex-wrap gap-2 py-2 mb-4 sm:mb-0 items-center hover:bg-gray-200">
+                            <div className="sm:w-2/5 w-full">
                                 <div className="flex space-x-2 justify-between">
-                                    <div className="flex space-x-2 justify-start w-36">
+                                    <div className="flex space-x-2 justify-start w-24">
                                         <Image
                                             src={match.img_1}
                                             width={36}
@@ -49,10 +50,10 @@ const MatchSoccer = () => {
                                     </div>
                                     <div className="">
                                         <div className="bg-indigo-100 px-2 rounded-xl">
-                                            <p className="text-blue-500">{match.score}</p>
+                                            <p className="text-blue-500 text-sm">{match.score}</p>
                                         </div>
                                     </div>
-                                    <div className="flex space-x-2 w-36 justify-end">
+                                    <div className="flex space-x-2 w-28 justify-end">
                                         <p className="text-right"> {match.name2}</p>
                                         <Image
                                             src={match.img_2}
@@ -63,36 +64,43 @@ const MatchSoccer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-3/5 flex space-x-8 items-center">
-                                <div className="flex items-center space-x-2">
+                            
+                            <div className="sm:w-7/12 w-full flex flex-wrap gap-4 items-center">
+                                <div className="flex justify-center items-center space-x-2 sm:w-40 w-full">
                                     <input type="text" placeholder="-" className="border w-12 rounded-lg" />
                                     <p className="text-[12px] text-gray-500">Prediction</p>
                                     <input type="text" placeholder="-" className="border w-12 rounded-lg" />
                                 </div>
-                                <div className="flex items-center space-x-2">
-                                    <AiOutlineClockCircle size={32} />
-                                    <p className="text-gray-700">5.00 PM</p>
+                                
+                                <div className="flex items-center space-x-2 bg-blue-700 px-1 rounded-xl">
+                                    <AiOutlineClockCircle color="white" size={24} />
+                                    <p className="text-white text-[12px]">5.00 PM</p>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <MdOutlineStadium size={32} />
-                                    <p className="text-gray-700">London</p>
+                                    <MdOutlineStadium size={24} />
+                                    <p className="text-gray-700 text-[12px]">London</p>
                                 </div>
+                                
                                 <div className="flex items-center space-x-2">
                                     <Image
                                         src="/assets/icon/cup.png"
-                                        width={38}
-                                        height={54}
+                                        width={24}
+                                        height={40}
                                         alt="World Cup"
                                     />
                                 </div>
+                                
                                 <div className="flex items-center space-x-2">
-                                    <p className="text-gray-700">Details</p>
-                                    <BsArrowRight size={32} />
+                                    <p className="text-gray-700 text-sm">Details</p>
+                                    <BsArrowRight />
                                 </div>
+                                
                             </div>
+                            
                         </div>
                     </>
                 )}
+                
             </div>
         </React.Fragment>
     )
