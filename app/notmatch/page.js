@@ -16,7 +16,7 @@ const NotMatch = () => {
             </div>
             <div className="max-w-screen-xl mx-auto px-24 py-8">
                 <div className="w-full flex flex-col justify-center items-center">
-                    <h2 className="text-gray-500 text-3xl text-center">لا يوجد مباريات للتوقع الأن
+                    <h2 className="text-gray-500 sm:text-3xl text-lg text-center">لا يوجد مباريات للتوقع الأن
                     </h2>
                     <Image
                         src="/assets/splash/notfound.png"
