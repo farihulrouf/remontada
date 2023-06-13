@@ -50,10 +50,10 @@ const TabMatch = () => {
                                 <div className="px-2 bg-pink-100 rounded-xl sm:ml-4 ml-0">
                                     <p className="text-red-500 text-center sm:text-sm text-[10px]">Full - Time</p>
                                 </div>
-                                <div className="flex items-center sm:space-x-4 space-x-1 sm:text-sm text-[10px] px-2">
-                                    <p className="bg-teal-500 text-white px-2 rounded-xl">18 Dec 2023</p>
-                                    <p className="bg-pink-500 text-white px-2 rounded-xl">Alianz Arena </p>
-                                    <p className="bg-indigo-700 text-white px-2 rounded-xl">World Cup U-20 </p>
+                                <div className="flex items-center sm:space-x-4 space-x-1 sm:text-sm text-[8px] px-2">
+                                    <p className="bg-teal-500 text-center text-white px-2 rounded-xl">18 Dec 2023</p>
+                                    <p className="bg-pink-500 text-center text-white px-2 rounded-xl">Alianz Arena </p>
+                                    <p className="bg-indigo-700 text-center text-white px-2 rounded-xl">World Cup U-20 </p>
                                     <AiOutlineArrowRight className="text-gray-400" />
                                 </div>
                             </div>
