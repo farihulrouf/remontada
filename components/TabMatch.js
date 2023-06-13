@@ -20,9 +20,9 @@ const TabMatch = () => {
             <div className="bg-yellow-500 p-2 mb-8 flex justify-between items-center">
                 <div className="flex items-center gap-2">
                     <BiFootball size={32} color="white"/>
-                    <h2 className="text-lg text-white">Footbal match</h2>
+                    <h2 className="sm:text-lg text-sm text-white">Footbal match</h2>
                 </div>
-                <button className="bg-blue-900 text-white px-5 py-1 flex space-x-4 items-center rounded-lg" onClick={matchREdirect}><span>Guess  now</span>  <AiOutlineArrowRight color="white" className="text-gray-400" /></button>
+                <button className="bg-blue-900 text-white px-5 py-1 flex space-x-4 items-center rounded-lg text-sm sm:text-lg" onClick={matchREdirect}><span>Guess  now</span>  <AiOutlineArrowRight color="white" className="text-gray-400" /></button>
             </div>
            
             {pagematch.map((match, index) =>
