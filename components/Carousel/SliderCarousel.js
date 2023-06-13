@@ -12,6 +12,7 @@ export default class SliderCarousel extends Component {
     return (
       <div>
         <Carousel showThumbs={false} autoPlay={true} >
+          {/*
           <div className='relative'>
             <img src="assets/splash/splash.png" alt="image1" />
             <p className='absolute sm:px-8 px-2 sm:py-2 py-1 sm:bottom-40 bottom-20 sm:right-20 right-10 bg-indigo-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white'>يخمن  مباراة</p>
@@ -25,6 +26,7 @@ export default class SliderCarousel extends Component {
             </div>
 
           </div>
+    */}
           <div className='relative'>
 
             <img src="assets/splash/splash_2.png" alt="splash2" />

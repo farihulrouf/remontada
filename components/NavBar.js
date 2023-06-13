@@ -9,10 +9,12 @@ const NavBar = () => {
 
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     return (
+
         <nav className="bg-black">
-            <div className="max-w-7xl mx-auto flex items-center justify-between h-10 px-4">
-                <div className="flex-shrink-0 font-bold tracking-wider text-white">
-                    LOGO
+            <div className="max-w-7xl mx-auto flex items-center justify-between h-12 px-4 relative">
+                <div className="flex space-x-2 items-center font-bold tracking-wider text-white">
+                     <img src='/logo.svg' className='sm:w-12 w-8 h-auto z-40' alt="logo" /> 
+
                 </div>
                 <div className="hidden md:block">
                     <Menu />

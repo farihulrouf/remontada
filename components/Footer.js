@@ -36,12 +36,8 @@ const Footer = () => {
                             <div className="w-full sm:w-1/3 opacity-100 bg-[url('../public/img/bg_ball.png')]">
                             
                                <div className="p-4 text-white">  
-                                <Image
-                                        src="/logo.png"
-                                        width={200}
-                                        height={50}
-                                        alt="Picture of the author"
-                                    />
+                               <img src='/logo.svg' className='w-16 h-auto' alt="logo" /> 
+
                                     <p className="text-white text-sm mt-6 mb-4 max-w-sm">
                                         Consectetur adipisicing elit sedtado eiusmod dunt
                                         ut labore et dolore magna aliqua enim minim veniami
