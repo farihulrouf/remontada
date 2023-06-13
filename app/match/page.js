@@ -50,7 +50,7 @@ const MatchSoccer = () => {
                                     </div>
                                     <div className="">
                                         <div className="bg-indigo-100 px-2 rounded-xl">
-                                            <p className="text-blue-500 text-sm">{match.score}</p>
+                                            <p className="text-blue-500 text-sm">vs</p>
                                         </div>
                                     </div>
                                     <div className="flex space-x-2 w-28 justify-end">
