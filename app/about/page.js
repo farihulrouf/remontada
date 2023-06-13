@@ -13,9 +13,9 @@ const About = () => {
                     alt="pic"
                 />
             </div>
-            <div className="max-w-screen-xl mx-auto px-24 py-8">
+            <div className="max-w-screen-xl mx-auto sm:px-24 px-8 py-8">
                 <div className="w-full flex">
-                    <div className="w-1/2">
+                    <div className="w-1/2 sm:flex hidden">
                         <Image
                             src="/assets/splash/kick_2.png"
                             width={438}
@@ -23,11 +23,11 @@ const About = () => {
                             alt="Picture of the author"
                         />
                     </div>
-                    <div className="w-1/2">
-                        <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et hendrerit urna. Aliquam dignissim volutpat fermentum. In metus est, vulputate id massa ac Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et hendrerit urna. Aliquam dignissim volutpat fermentum. In metus est. </p>
-                        <input type="text" placeholder="Full Name" className="px-2 py-2 mb-6 border w-2/3 rounded-md" />
-                        <input type="text" placeholder="Email" className="px-2 py-2 mb-6 border w-2/3 rounded-md" />
-                        <textarea className="resize rounded-md border w-2/3 px-2 py-2 h-48 mb-2" placeholder="Description" />
+                    <div className="sm:w-1/2 w-full">
+                        <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et hendrerit urna. Aliquam dignissim volutpat fermentum. </p>
+                        <input type="text" placeholder="Full Name" className="px-2 py-2 mb-6 border sm:w-2/3 w-full rounded-md" />
+                        <input type="text" placeholder="Email" className="px-2 py-2 mb-6 border sm:w-2/3 w-full rounded-md" />
+                        <textarea className="resize rounded-md border sm:w-2/3 w-full px-2 py-2 h-48 mb-2" placeholder="Description" />
                         <div className="mt-2 w-2/3 ">
                             <button className="bg-yellow-500 px-4 py-2 rounded-lg">Send Now</button>
                         </div>
