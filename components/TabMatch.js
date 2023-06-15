@@ -23,8 +23,9 @@ const TabMatch = () => {
                 </div>
                 <button className="bg-blue-900 text-white px-5 py-1 flex space-x-4 items-center rounded-lg text-sm sm:text-lg" onClick={matchREdirect}><span>Guess  now</span>  <AiOutlineArrowRight color="white" className="text-gray-400" /></button>
             </div>
-
+  
             {pagematch.map((match, index) =>
+             index < 5 && (
                 <>
                     <div className="flex flex-wrap items-center sm:p-4 p-0 mb-2 hover:bg-gray-200">
                         <div className="sm:w-1/2 w-full">
@@ -71,7 +72,7 @@ const TabMatch = () => {
 
                     </div>
                 </>
-            )}
+            ))}
 
 
         </div>

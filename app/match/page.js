@@ -35,6 +35,7 @@ const MatchSoccer = () => {
                 </div>
                 
                 {pagematch.map((match, index) =>
+                     index < 5 && (
                     <>
                         <div className="flex flex-wrap gap-2 py-2 mb-4 sm:mb-0 items-center hover:bg-gray-200">
                             <div className="sm:w-2/5 w-full">
@@ -99,7 +100,7 @@ const MatchSoccer = () => {
                             
                         </div>
                     </>
-                )}
+                ))}
                 
             </div>
         </React.Fragment>

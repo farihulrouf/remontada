@@ -54,6 +54,61 @@ const pagematch = [
         img_1: "/assets/flag/france.png",
         img_2: "/assets/flag/england.png",
         score: "3-3"
+    },
+    {
+        id: 6,
+        name1: "فرنسا",
+        name2: "إنكلترا",
+        dateTime: "18 December 2023",
+        stadium: "Alianz Arena",
+        cup: "World Cup U-20",
+        img_1: "/assets/flag/france.png",
+        img_2: "/assets/flag/england.png",
+        score: "3-3"
+    },
+    {
+        id: 7,
+        name1: "فرنسا",
+        name2: "إنكلترا",
+        dateTime: "18 December 2023",
+        stadium: "Alianz Arena",
+        cup: "World Cup U-20",
+        img_1: "/assets/flag/france.png",
+        img_2: "/assets/flag/england.png",
+        score: "3-3"
+    },
+    {
+        id: 8,
+        name1: "فرنسا",
+        name2: "إنكلترا",
+        dateTime: "18 December 2023",
+        stadium: "Alianz Arena",
+        cup: "World Cup U-20",
+        img_1: "/assets/flag/france.png",
+        img_2: "/assets/flag/england.png",
+        score: "3-3"
+    },
+    {
+        id: 9,
+        name1: "فرنسا",
+        name2: "إنكلترا",
+        dateTime: "18 December 2023",
+        stadium: "Alianz Arena",
+        cup: "World Cup U-20",
+        img_1: "/assets/flag/france.png",
+        img_2: "/assets/flag/england.png",
+        score: "3-3"
+    },
+    {
+        id: 10,
+        name1: "فرنسا",
+        name2: "إنكلترا",
+        dateTime: "18 December 2023",
+        stadium: "Alianz Arena",
+        cup: "World Cup U-20",
+        img_1: "/assets/flag/france.png",
+        img_2: "/assets/flag/england.png",
+        score: "3-3"
     }
 
 ]

@@ -146,7 +146,7 @@ const Dashboard = () => {
                         <a className='text-blue-900 text-lg'>Match</a>
                         <a>Guess</a>
                         </div>
-                        <div className='flex gap-2 items-center'>
+                        <div className='flex gap-2 items-center bg-gray-100 px-4 py-1 rounded-xl'>
                             <p className='text-sm'>John doe</p>
                             <button className=''><AiOutlineLogout /></button>
                         </div>
