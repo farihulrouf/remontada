@@ -1,14 +1,14 @@
 "use client"
 import React, { useState } from 'react';
 import { pagematch } from "@/components/data";
-import { AiOutlineArrowRight, AiOutlineClockCircle, AiOutlineEdit, AiOutlineDelete, AiOutlineFileAdd }
+import { AiOutlineArrowRight, AiOutlineLogout,AiOutlineClockCircle, AiOutlineEdit, AiOutlineDelete, AiOutlineFileAdd }
     from 'react-icons/ai';
 import { MdOutlineStadium } from 'react-icons/md'
 import { BsArrowRight } from 'react-icons/bs'
 import { BiFootball } from 'react-icons/bi'
 import Image from "next/image"
 import Popup from "reactjs-popup";
-
+import Link from 'next/link';
 import DatePicker from "react-datepicker";
 
 import "react-datepicker/dist/react-datepicker.css";
@@ -24,7 +24,7 @@ import DatePicker from 'react-date-picker';
 */
 
 
-{/*
+
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -111,7 +111,6 @@ export const data_bar = {
       },
     ],
   };
-*/}
 
 const Dashboard = () => {
     const [open, setOpen] = useState(false)
@@ -140,16 +139,27 @@ const Dashboard = () => {
     return (
         <React.Fragment>
             <div className="container max-w-screen-xl mx-auto">
-                <div className="px-24 mb-4">
+                <div className="sm:px-24 px-4 mb-4 w-full">
+                    <div className='flex items-center gap-4 justify-between mt-4'>
+                        <div className='flex items-center gap-3'>
+
+                        <a className='text-blue-900 text-lg'>Match</a>
+                        <a>Guess</a>
+                        </div>
+                        <div className='flex gap-2 items-center'>
+                            <p className='text-sm'>John doe</p>
+                            <button className=''><AiOutlineLogout /></button>
+                        </div>
+                    </div>
                     <div className='flex space-x-2'>
-                        {/*
+                        
                         <div className='sm:w-1/2 w-full'>
                             <Line options={options} data={data} />
                         </div>
                         <div className='sm:w-1/2 w-full'>
                                  <Bar options={options_bar} data={data_bar} />;
                         </div>
-                        */}
+                        
                     </div>
                     <div className="bg-yellow-500 p-2 mb-2 mt-6  flex justify-between items-center">
                         <div className="flex items-center gap-2">
@@ -218,9 +228,11 @@ const Dashboard = () => {
 
                                     <div className="flex items-center space-x-2 px-4">
                                         {/*<p className="text-gray-700 text-sm">Details</p> */}
-                                        <AiOutlineEdit />
+                                        <button onClick={() => setOpen(!open)}> <AiOutlineEdit /></button>
                                         <AiOutlineDelete />
-                                        <BsArrowRight />
+                                        <a><Link href={'admin/'+ match.id} key={match.id}> <BsArrowRight /></Link></a>
+
+                                        
 
                                     </div>
 
@@ -233,7 +245,7 @@ const Dashboard = () => {
             </div>
 
             <Popup open={open} closeOnDocumentClick onClose={closeModal}>
-                <div className='md:w-[678px] w-[350px] bg-white shadow-md flex flex-col p-6 font-play'>
+                <div className='md:w-[500px] w-[350px] bg-white shadow-md flex flex-col p-6 font-play'>
                     <div className='flex space-x-2 py-2'>
                         <input type='text' placeholder='Club 1' className='px-2 border py-1' /> <input type='text' placeholder='score' className='w-12 py-1 border' />
                     </div>
@@ -253,10 +265,10 @@ const Dashboard = () => {
                     </div>
 
                     <div className='py-2'>
-                        <input type='text' placeholder='Name Stadium' className='px-2 py-1 border w-full' />
+                        <input type='text' placeholder='Name Stadium' className='px-2 py-1 border' />
                     </div>
                     <div className='py-2'>
-                        <input type='text' className='w-full px-2 py-1 border' placeholder='Name of copetition' />
+                        <input type='text' className='px-2 py-1 border' placeholder='Name of cometition' />
                         <div className='py-2 text-[12px]'>
 
                             <input type="file" onChange={handleChange_stadium} />
