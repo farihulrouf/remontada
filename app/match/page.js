@@ -19,26 +19,26 @@ const MatchSoccer = () => {
                     alt="pic"
                 />
             </div>
-            <div className="max-w-screen-xl mx-auto sm:px-24 px-8 sm:py-8 py-4">
+            <div className="max-w-screen-xl mx-auto lg:px-24 px-8 lg:py-8 py-4">
                 <div className="py-6">
                     <h3 className="text-xl text-center py-1">مباريات اليوم</h3>
                     <div className="flex gap-4 items-center">
-                          <input type="text" placeholder=" ترثع الأن" className="border p-2 w-24 rounded-sm" />
-                          <input type="text" placeholder="059 x x x x x"  className="border p-2 rounded-sm sm:w-48 w-36" />
-                          <p className="sm:text-lg text-sm">رقم هوالة</p>
+                          <input type="text" placeholder=" ترثع الأن" className="border p-2 w-24 rounded-lg" />
+                          <input type="text" placeholder="059 x x x x x"  className="border p-2 rounded-lg lg:w-48 w-36" />
+                          <p className="lg:text-lg text-lg">رقم هوالة</p>
 
                     </div>
                 </div>
-                <div className="bg-yellow-500 p-2 sm:mb-8 mb-2 flex items-center">
+                <div className="bg-yellow-500 p-2 lg:mb-8 mb-2 flex items-center">
                     <BiFootball size={36} />
-                    <h2 className="sm:text-lg text-sm">Footbal match</h2>
+                    <h2 className="lg:text-lg text-lg">Footbal match</h2>
                 </div>
                 
                 {pagematch.map((match, index) =>
                      index < 5 && (
                     <>
-                        <div className="flex flex-wrap gap-2 py-2 mb-4 sm:mb-0 items-center hover:bg-gray-200">
-                            <div className="sm:w-2/5 w-full">
+                        <div className="flex flex-wrap gap-2 py-2 mb-4 lg:mb-0 items-center hover:bg-gray-200">
+                            <div className="lg:w-2/5 w-full">
                                 <div className="flex space-x-2 justify-between">
                                     <div className="flex space-x-2 justify-start w-24">
                                         <Image
@@ -51,7 +51,7 @@ const MatchSoccer = () => {
                                     </div>
                                     <div className="">
                                         <div className="bg-indigo-100 px-2 rounded-xl">
-                                            <p className="text-blue-500 text-sm">vs</p>
+                                            <p className="text-blue-500 text-lg">vs</p>
                                         </div>
                                     </div>
                                     <div className="flex space-x-2 w-28 justify-end">
@@ -66,8 +66,8 @@ const MatchSoccer = () => {
                                 </div>
                             </div>
                             
-                            <div className="sm:w-7/12 w-full flex flex-wrap gap-4 items-center">
-                                <div className="flex justify-center items-center space-x-2 sm:w-40 w-full">
+                            <div className="lg:w-7/12 w-full flex flex-wrap gap-4 items-center">
+                                <div className="flex justify-center items-center space-x-2 lg:w-40 w-full">
                                     <input type="text" placeholder="-" className="border w-12 rounded-lg" />
                                     <p className="text-[12px] text-gray-500">Prediction</p>
                                     <input type="text" placeholder="-" className="border w-12 rounded-lg" />
@@ -92,7 +92,7 @@ const MatchSoccer = () => {
                                 </div>
                                 
                                 <div className="flex items-center space-x-2">
-                                    <p className="text-gray-700 text-sm">Details</p>
+                                    <p className="text-gray-700 text-lg">Details</p>
                                     <BsArrowRight />
                                 </div>
                                 

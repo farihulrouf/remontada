@@ -41,7 +41,7 @@ const Footer = () => {
                                 <Link href="/">
                                     <div className="flex items-center bg-blue-900 px-4">
 
-                                        <img src='/logo.svg' className='w-16 h-auto' alt="logo" /> <span className="text-white text-4xl">emontadaa</span>
+                                        <img src='/logo.svg' className='w-16 h-auto' alt="logo" /> <span className="text-white text-2xl">emontadaa</span>
                                     </div>
                                 </Link>
 

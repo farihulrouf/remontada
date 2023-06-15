@@ -151,7 +151,7 @@ const Dashboard = () => {
                             <button className=''><AiOutlineLogout /></button>
                         </div>
                     </div>
-                    <div className='flex space-x-2'>
+                    <div className='flex items-center justify-between flex-wrap'>
                         
                         <div className='sm:w-1/2 w-full'>
                             <Line options={options} data={data} />
