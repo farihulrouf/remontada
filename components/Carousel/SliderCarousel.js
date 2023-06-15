@@ -30,10 +30,10 @@ export default class SliderCarousel extends Component {
           <div className='relative'>
 
             <img src="assets/splash/splash_2.png" alt="splash2" />
-            <p className='absolute lg:px-8 px-2 lg:py-2 py-1 lg:bottom-40 bottom-20 lg:left-20 left-10 bg-indigo-500 bg-opacity-100 rounded-xl lg:text-4xl text-sm text-white'>يخمن  مباراة</p>
+            <p className='absolute lg:px-8 px-2 lg:py-2 py-1 lg:bottom-40 bottom-20 lg:left-20 left-10 bg-indigo-500 bg-opacity-100 rounded-xl lg:text-4xl text-lg text-white'>يخمن  مباراة</p>
             
               <Link href="/login">
-                <p className='absolute sm:px-4 px-2 sm:py-2 py-1 sm:bottom-20 bottom-10 sm:left-20 left-10 bg-yellow-500 bg-opacity-100 rounded-xl sm:text-4xl text-sm text-white flex items-center'>Guess Now<BsArrowRight className='sm:block hidden' size={36} /></p>
+                <p className='absolute lg:px-4 px-2 lg:py-2 py-1 lg:bottom-20 bottom-10 lg:left-20 left-10 bg-yellow-500 bg-opacity-100 rounded-xl lg:text-4xl text-lg text-white flex items-center'>Guess Now<BsArrowRight className='lg:block hidden' size={36} /></p>
               </Link>
             
 
