@@ -17,13 +17,20 @@ export default function RootLayout({ children }) {
   const [pageUrl, setPageUrl] = useState('')
   const router = useRouter();
 
-
+ {/*
   useEffect(() => {
     setPageUrl(window.location.pathname)
   })
+*/}
   return (
     <html lang="en">
       <body className={inter.className}>
+      <div>
+            <NavBar />
+            {children}
+            <Footer />
+          </div>
+        {/*
         {pageUrl.substr(1, 4) == 'admi' ?
           <>
             {children}
@@ -35,6 +42,7 @@ export default function RootLayout({ children }) {
             <Footer />
           </div>
         }
+      */}
       </body>
     </html>
   );
