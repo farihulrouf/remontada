@@ -139,7 +139,7 @@ const Dashboard = () => {
     return (
         <React.Fragment>
             <div className="container max-w-screen-xl mx-auto">
-                <div className="sm:px-24 px-4 mb-4 w-full">
+                <div className="lg:px-24 px-4 mb-4 w-full">
                     <div className='flex items-center gap-4 justify-between mt-4'>
                         <div className='flex items-center gap-3'>
 
@@ -147,16 +147,16 @@ const Dashboard = () => {
                         <a>Guess</a>
                         </div>
                         <div className='flex gap-2 items-center bg-gray-100 px-4 py-1 rounded-xl'>
-                            <p className='text-sm'>John doe</p>
+                            <p className='text-lg'>John doe</p>
                             <button className=''><AiOutlineLogout /></button>
                         </div>
                     </div>
                     <div className='flex items-center justify-between flex-wrap'>
                         
-                        <div className='sm:w-1/2 w-full'>
+                        <div className='lg:w-1/2 w-full'>
                             <Line options={options} data={data} />
                         </div>
-                        <div className='sm:w-1/2 w-full'>
+                        <div className='lg:w-1/2 w-full'>
                                  <Bar options={options_bar} data={data_bar} />;
                         </div>
                         
@@ -164,14 +164,14 @@ const Dashboard = () => {
                     <div className="bg-yellow-500 p-2 mb-2 mt-6  flex justify-between items-center">
                         <div className="flex items-center gap-2">
                             <BiFootball size={32} color="white" />
-                            <h2 className="sm:text-lg text-sm text-white">Footbal match</h2>
+                            <h2 className="lg:text-lg text-lg text-white">Footbal match</h2>
                         </div>
-                        <button className="bg-blue-900 text-white px-5 py-1 flex space-x-4 items-center rounded-lg text-sm sm:text-lg" onClick={() => setOpen(!open)} ><span>Add Match</span>  <AiOutlineArrowRight color="white" className="text-gray-400" /></button>
+                        <button className="bg-blue-900 text-white px-5 py-1 flex space-x-4 items-center rounded-lg text-lg lg:text-lg" onClick={() => setOpen(!open)} ><span>Add Match</span>  <AiOutlineArrowRight color="white" className="text-gray-400" /></button>
                     </div>
                     {pagematch.map((match, index) =>
                         <>
-                            <div className="flex flex-wrap gap-2 py-2 mb-4 sm:mb-0 items-center hover:bg-gray-200">
-                                <div className="sm:w-2/5 w-full">
+                            <div className="flex flex-wrap gap-2 py-2 mb-4 lg:mb-0 items-center hover:bg-gray-200">
+                                <div className="lg:w-2/5 w-full">
                                     <div className="flex space-x-2 justify-between">
                                         <div className="flex space-x-2 justify-start w-24">
                                             <Image
@@ -184,7 +184,7 @@ const Dashboard = () => {
                                         </div>
                                         <div className="">
                                             <div className="bg-indigo-100 px-2 rounded-xl">
-                                                <p className="text-blue-500 text-sm">vs</p>
+                                                <p className="text-blue-500 text-lg">vs</p>
                                             </div>
                                         </div>
                                         <div className="flex space-x-2 w-28 justify-end">
@@ -199,9 +199,9 @@ const Dashboard = () => {
                                     </div>
                                 </div>
 
-                                <div className="sm:w-7/12 w-full flex flex-wrap gap-4 items-center justify-end">
+                                <div className="lg:w-7/12 w-full flex flex-wrap gap-4 items-center justify-end">
                                     {/*
-                                <div className="flex justify-center items-center space-x-2 sm:w-40 w-full">
+                                <div className="flex justify-center items-center space-x-2 lg:w-40 w-full">
                                     <input type="text" placeholder="-" className="border w-12 rounded-lg" />
                                     <p className="text-[12px] text-gray-500">Prediction</p>
                                     <input type="text" placeholder="-" className="border w-12 rounded-lg" />
@@ -227,7 +227,7 @@ const Dashboard = () => {
                                     </div>
 
                                     <div className="flex items-center space-x-2 px-4">
-                                        {/*<p className="text-gray-700 text-sm">Details</p> */}
+                                        {/*<p className="text-gray-700 text-lg">Details</p> */}
                                         <button onClick={() => setOpen(!open)}> <AiOutlineEdit /></button>
                                         <AiOutlineDelete />
                                         <a><Link href={'admin/'+ match.id} key={match.id}> <BsArrowRight /></Link></a>
