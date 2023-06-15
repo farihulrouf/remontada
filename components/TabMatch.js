@@ -5,7 +5,6 @@ import { AiOutlineArrowRight }
     from 'react-icons/ai';
 import { BiFootball } from 'react-icons/bi'
 import { useRouter } from 'next/navigation';
-
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 const TabMatch = () => {
@@ -19,12 +18,12 @@ const TabMatch = () => {
         <div className="w-full mt-12 mb-24 sm:px-24 px-4">
             <div className="bg-yellow-500 p-2 mb-8 flex justify-between items-center">
                 <div className="flex items-center gap-2">
-                    <BiFootball size={32} color="white"/>
+                    <BiFootball size={32} color="white" />
                     <h2 className="sm:text-lg text-sm text-white">Footbal match</h2>
                 </div>
                 <button className="bg-blue-900 text-white px-5 py-1 flex space-x-4 items-center rounded-lg text-sm sm:text-lg" onClick={matchREdirect}><span>Guess  now</span>  <AiOutlineArrowRight color="white" className="text-gray-400" /></button>
             </div>
-           
+
             {pagematch.map((match, index) =>
                 <>
                     <div className="flex flex-wrap items-center sm:p-4 p-0 mb-2 hover:bg-gray-200">
@@ -55,7 +54,7 @@ const TabMatch = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="sm:w-1/2 w-full">
                             <div className="w-full flex items-center justify-between mt-2 sm:mb-0 mb-2">
                                 <div className="px-2 bg-pink-100 rounded-xl sm:ml-4 ml-0">
@@ -69,11 +68,11 @@ const TabMatch = () => {
                                 </div>
                             </div>
                         </div>
-            
+
                     </div>
                 </>
             )}
-            
+
 
         </div>
     )
