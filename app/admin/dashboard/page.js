@@ -8,6 +8,23 @@ import { BsArrowRight } from 'react-icons/bs'
 import { BiFootball } from 'react-icons/bi'
 import Image from "next/image"
 import Popup from "reactjs-popup";
+
+import DatePicker from "react-datepicker";
+
+import "react-datepicker/dist/react-datepicker.css";
+
+
+/*
+import TimePicker from 'react-time-picker';
+import 'react-time-picker/dist/TimePicker.css';
+import 'react-clock/dist/Clock.css';
+import 'react-date-picker/dist/DatePicker.css';
+import 'react-calendar/dist/Calendar.css';
+import DatePicker from 'react-date-picker';
+*/
+
+
+{/*
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -61,7 +78,7 @@ export const options_bar = {
     },
   };
   
-  
+
   
 
 const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
@@ -94,21 +111,34 @@ export const data_bar = {
       },
     ],
   };
+*/}
 
 const Dashboard = () => {
     const [open, setOpen] = useState(false)
     const closeModal = () => setOpen(false)
+    const [file, setFile] = useState();
+    //const [value, onChange] = useState('10:00');
+    const [startDate, setStartDate] = useState(new Date());
+
+
+    const handleChange = (e) => {
+        console.log(e.target.files);
+        setFile(URL.createObjectURL(e.target.files[0]));
+    }
+    
     return (
         <React.Fragment>
             <div className="container max-w-screen-xl mx-auto">
                 <div className="px-24 mb-4">
                     <div className='flex space-x-2'>
+                        {/*
                         <div className='sm:w-1/2 w-full'>
                             <Line options={options} data={data} />
                         </div>
                         <div className='sm:w-1/2 w-full'>
                                  <Bar options={options_bar} data={data_bar} />;
                         </div>
+                        */}
                     </div>
                     <div className="bg-yellow-500 p-2 mb-2 mt-6  flex justify-between items-center">
                         <div className="flex items-center gap-2">
@@ -192,8 +222,35 @@ const Dashboard = () => {
             </div>
 
             <Popup open={open} closeOnDocumentClick onClose={closeModal}>
-                <div className='md:w-[678px] w-[350px] bg-white shadow-md flex flex-col items-center p-6 font-play'>
-                    ok
+                <div className='md:w-[678px] w-[350px] bg-white shadow-md flex flex-col p-6 font-play'>
+                    <div className='flex space-x-2 justify-between'>
+                        <input type='text' placeholder='Club 1' className='px-2 border py-1' /> <spam>VS</spam><input type='text' placeholder='Club 2' className='px-2 border py-1' />
+                    </div>
+                    <div className='py-2'>
+                        <input type='text' placeholder='stadium' className='px-2 py-1 border w-full' />
+                    </div>
+                    <div>
+                        <input type='text' className='w-full px-2 py-1 border' placeholder='Name of copetition' />
+                    </div>
+                    <div className='py-2 space-x-4 items-center'>
+                             <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} className='border px-2 py-1' />
+                                
+                        {/* <TimePicker onChange={onChange} value={value} /> */}
+
+                    </div>
+                    <buton className="bg-yellow-500 px-2 py-1 rounded-lg w-32">Save</buton>
+                    {/*
+                    <div className='flex space-x-2'>
+                        <div className=''>
+                            <input type="file" className='' onChange={handleChange} />
+                            <img className='w-16 h-16' src={file} />
+                        </div>
+                        <div className=''>
+                            <input type="file" className='' onChange={handleChange} />
+                            <img className='w-16 h-16' src={file} />
+                        </div>
+                    </div>
+                            */}
 
                 </div>
             </Popup>
