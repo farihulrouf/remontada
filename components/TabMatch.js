@@ -59,9 +59,9 @@ const TabMatch = () => {
                         <div className="lg:w-1/2 w-full">
                             <div className="w-full flex items-center justify-between mt-2 lg:mb-0 mb-2">
                                 <div className="px-2 bg-pink-100 rounded-xl lg:ml-4 ml-0">
-                                    <p className="text-red-500 text-center lg:text-lg text-[10px]">Full - Time</p>
+                                    <p className="text-red-500 text-center lg:text-sm text-[10px]">Full - Time</p>
                                 </div>
-                                <div className="flex items-center lg:space-x-4 space-x-1 lg:text-lg text-[8px] px-2">
+                                <div className="flex items-center lg:space-x-4 space-x-1 lg:text-sm text-[8px] px-2">
                                     <p className="bg-teal-500 text-center text-white px-2 rounded-xl">18 Dec 2023</p>
                                     <p className="bg-pink-500 text-center text-white px-2 rounded-xl">Alianz Arena </p>
                                     <p className="bg-indigo-700 text-center text-white px-2 rounded-xl">World Cup U-20 </p>
