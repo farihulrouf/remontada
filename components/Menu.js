@@ -14,7 +14,7 @@ const Menu = () => {
             
             className="block md:inline-block px-3 py-2 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
         >
-            <Link href="/">
+            <Link href="/about">
 
                 About
             </Link>
@@ -23,7 +23,10 @@ const Menu = () => {
             
             className="block md:inline-block px-3 py-2 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
         >
+                        <Link href="/contact">
+
             Contact Us
+            </Link>
         </a>
         <a
             
